@@ -1,0 +1,132 @@
+$assetPath : "/assets/images";
+$fallback-color : #333;
+
+.alliance-content{
+    height: 100%;
+    background: url(#{$assetPath}/bg-pattern.jpg) center; 
+    background-size: cover;
+    margin-top: -10px; 
+    height: 100%;
+    box-sizing: border-box;
+    .players{
+        box-sizing: border-box;
+    }
+    .player-card{
+        height: 320px;
+        border-radius: 1px;
+        margin : 15px;
+        padding: 15px;
+        box-sizing: border-box;
+        width: 25%;
+        display: inline-block;
+        box-shadow: 0 6px 15px rgba(36,37,38,.08);
+        background: url(#{$assetPath}/jon-snow.jpg) center;  
+        background-size: cover;
+        color: #fff;
+        .player{
+            height: 100%;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: flex-end;
+        }
+
+        .player-details{
+        display: flex;
+        flex-direction: column;
+        align-self: flex-end;
+        }
+    }
+
+
+    .player-card:nth-child(2){
+        background: url(#{$assetPath}/sansa.jpg) center;  
+    }
+
+    .player-card:nth-child(3){
+        background: url(#{$assetPath}/arya.jpg) top;  
+    }
+
+    .player-card:nth-child(4){
+        background: url(#{$assetPath}/Bran.jpg) top;  
+    }
+
+    .player-card:nth-child(5){
+        background: url(#{$assetPath}/cersei.png) top;  
+    }
+
+        .player-card:nth-child(6){
+        background: url(#{$assetPath}/jamie.jpg) top;  
+    }
+        .player-card:nth-child(7){
+        background: url(#{$assetPath}/tyrion.jpg) center;  
+    }
+        .player-card:nth-child(8){
+        background: url(#{$assetPath}/daenerys.jpg) center;  
+    }
+        .player-card:nth-child(9){
+        background: url(#{$assetPath}/littlefinger.jpg) no-repeat center;  
+    }
+        .player-card:nth-child(10){
+        background: url(#{$assetPath}/varys.jpg) no-repeat center;  
+    }
+
+
+            .player-card:nth-child(11){
+        background: url(#{$assetPath}/melisandre.jpg) no-repeat center;  
+    }
+            .player-card:nth-child(12){
+        background: url(#{$assetPath}/theon-greyjoy.jpg) no-repeat center;  
+    }
+            .player-card:nth-child(13){
+        background: url(#{$assetPath}/euron-greyjoy.jpg) no-repeat center;  
+    }
+            .player-card:nth-child(14){
+        background: url(#{$assetPath}/brienne.jpg) no-repeat center;  
+    }
+            .player-card:nth-child(15){
+        background: url(#{$assetPath}/bronn.jpg) no-repeat center;  
+    }
+            .player-card:nth-child(16){
+        background: url(#{$assetPath}/hound.jpg) no-repeat center;  
+    }
+            .player-card:nth-child(17){
+        background: url(#{$assetPath}/davos-seaworth.jpg) no-repeat center;  
+    }
+            .player-card:nth-child(18){
+        background: url(#{$assetPath}/jorah-mormont.jpg) no-repeat center;  
+    }
+            .player-card:nth-child(19){
+        background: url(#{$assetPath}/ellaria-sand.jpg) no-repeat center;  
+    }
+            .player-card:nth-child(20){
+        background: url(#{$assetPath}/olenna-tyrell.jpg) no-repeat center;  
+    }
+                .player-card:nth-child(21){
+        background: url(#{$assetPath}/tormund.jpg) no-repeat center;  
+    }
+                .player-card:nth-child(22){
+        background: url(#{$assetPath}/samwell-tarly.jpg) no-repeat center;  
+    }
+                    .player-card:nth-child(23){
+        background: url(#{$assetPath}/qyburn.jpg) no-repeat center;  
+    }
+
+                        .player-card:nth-child(24){
+        background: url(#{$assetPath}/lyanna.png) no-repeat left;  
+    }
+
+
+}
+
+
+@media(max-width:34em){
+    .player-card{
+        width: 100% !important;
+        margin: 0 10px !important;
+    }
+
+    .padding-top-bottom-50{
+        padding: 0;
+    }
+}
